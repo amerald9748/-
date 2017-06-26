@@ -1,9 +1,9 @@
-﻿Log file open, 06/26/17 12:36:57
+﻿Log file open, 06/26/17 17:38:18
 LogInit:Display: Running engine for game: 萝莉
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-594616339) SRandInit(-594616339).
+LogInit:Display: RandInit(1065957579) SRandInit(1065957579).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.314349
+LogStats: Stats thread started at 0.130544
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,435 +48,695 @@ LogInit: Base directory: D:/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.26-04.37.00:185][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.26-04.37.00:185][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.26-04.37.00:227][  0]LogInit: Computer: DESKTOP-44SKKF1
-[2017.06.26-04.37.00:227][  0]LogInit: User: 1
-[2017.06.26-04.37.00:227][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.06.26-04.37.00:227][  0]LogInit: High frequency timer resolution =1.754523 MHz
-[2017.06.26-04.37.00:228][  0]LogMemory: Memory total: Physical=7.3GB (8GB approx)
-[2017.06.26-04.37.00:229][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.26-04.37.00:229][  0]LogMemory: Process Physical Memory: 262.77 MB used, 262.77 MB peak
-[2017.06.26-04.37.00:229][  0]LogMemory: Process Virtual Memory: 262.74 MB used, 262.74 MB peak
-[2017.06.26-04.37.00:229][  0]LogMemory: Physical Memory: 3448.88 MB used,  4036.45 MB free, 7485.34 MB total
-[2017.06.26-04.37.00:229][  0]LogMemory: Virtual Memory: 643.93 MB used,  4036.45 MB free, 134217728.00 MB total
-[2017.06.26-04.37.00:613][  0]LogInit: Overriding culture en with editor configuration.
-[2017.06.26-04.37.02:905][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.26-04.37.02:965][  0]LogD3D11RHI:    0. 'AMD Radeon R6 Graphics' (Feature Level 11_0)
-[2017.06.26-04.37.02:965][  0]LogD3D11RHI:       487/0/3742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.06.26-04.37.02:970][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.26-04.37.02:970][  0]LogD3D11RHI:       0/0/3742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.26-04.37.02:970][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.26-04.37.03:001][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.26-04.37.03:001][  0]LogD3D11RHI:     GPU DeviceId: 0x9874 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.26-04.37.03:001][  0]LogWindows: EnumDisplayDevices:
-[2017.06.26-04.37.03:002][  0]LogWindows:    0. 'AMD Radeon R6 Graphics' (P:1 D:1)
-[2017.06.26-04.37.03:004][  0]LogWindows:    1. 'AMD Radeon R6 Graphics' (P:0 D:0)
-[2017.06.26-04.37.03:005][  0]LogWindows:    2. 'AMD Radeon R6 Graphics' (P:0 D:0)
-[2017.06.26-04.37.03:007][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.06.26-04.37.03:007][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R6 Graphics
-[2017.06.26-04.37.03:007][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
-[2017.06.26-04.37.03:007][  0]LogD3D11RHI:      Driver Date: 4-24-2017
-[2017.06.26-04.37.03:007][  0]LogRHI: Texture pool is 340 MB (70% of 487 MB)
-[2017.06.26-04.37.03:462][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.26-04.37.03:517][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2017.06.26-04.37.03:530][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/lenovo/Documents/GitHub/loli/萝莉/Intermediate/Shaders/WorkingDirectory/203836/).
-[2017.06.26-04.37.03:531][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/E1BA53FF4461437712F84CAFD5E9B038/'.
-[2017.06.26-04.37.03:532][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.26-04.37.09:463][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.26-04.37.09:655][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.26-04.37.09:942][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.26-04.37.10:245][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.26-04.37.10:470][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.26-04.37.10:782][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.26-04.37.11:101][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.26-04.37.11:359][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.26-04.37.11:568][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.26-04.37.11:760][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.26-04.37.11:958][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.26-04.37.12:166][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.26-04.37.12:364][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.26-04.37.12:608][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.26-04.37.12:809][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.26-04.37.13:194][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.26-04.37.13:194][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.26-04.37.13:344][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.26-04.37.13:748][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.26-04.37.13:889][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.26-04.37.14:080][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.26-04.37.14:325][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.26-04.37.14:565][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.26-04.37.14:846][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.26-04.37.14:846][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.26-04.37.16:671][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.26-04.37.17:238][  0]LogDerivedDataCache: Loaded boot cache 0.57s 50MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.26-04.37.17:238][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lenovo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.06.26-04.37.17:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/lenovo/Documents/GitHub/loli/萝莉/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.26-04.37.17:238][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.26-04.37.17:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/lenovo/Documents/GitHub/loli/萝莉/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.26-04.37.17:238][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.26-04.37.17:286][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.26-04.37.17:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.26-04.37.17:360][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.26-04.37.17:369][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.26-04.37.17:369][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.26-04.37.20:366][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.26-04.37.20:396][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.26-04.37.21:237][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.26-04.37.21:398][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.26-04.37.21:565][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.26-04.37.21:565][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.26-04.37.21:565][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.26-04.37.24:292][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: 萝莉, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2312337547
-[2017.06.26-04.37.24:460][  0]LogAssetRegistry: FAssetRegistry took 0.0341 seconds to start up
-[2017.06.26-04.37.24:649][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.095583 seconds
-[2017.06.26-04.37.24:666][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.06.26-04.37.24:666][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2017.06.26-04.37.24:666][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.26-04.37.24:908][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.26-04.37.32:825][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.26-04.37.32:977][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.26-04.37.36:211][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.26-04.37.38:036][  0]SourceControl: Info Source control is disabled
-[2017.06.26-04.37.38:043][  0]SourceControl: Info Source control is disabled
-[2017.06.26-04.37.38:217][  0]SourceControl: Info Source control is disabled
-[2017.06.26-04.37.38:370][  0]SourceControl: Info Source control is disabled
-[2017.06.26-04.37.43:124][  0]LogEngine: Initializing Engine...
-[2017.06.26-04.37.43:131][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.26-04.37.43:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.26-04.37.43:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.26-04.37.43:964][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.26-04.37.44:055][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.26-04.37.45:910][  0]LogInit: FAudioDevice initialized.
-[2017.06.26-04.37.46:006][  0]LogDerivedDataCache: Saved boot cache 0.10s 50MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.26-04.37.46:031][  0]LogInit: Texture streaming: Enabled
-[2017.06.26-04.37.46:356][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.26-04.37.46:682][  0]LogInit: Transaction tracking system initialized
-[2017.06.26-04.37.48:307][  0]BlueprintLog: New page: Editor Load
-[2017.06.26-04.37.51:930][  0]LocalizationService: Info Localization service is disabled
-[2017.06.26-04.37.55:907][  0]LogConsoleResponse:Display: 
-[2017.06.26-04.37.56:359][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.26-04.37.56:359][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.26-04.37.57:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/' took 0.04s
-[2017.06.26-04.38.00:606][  0]SourceControl: Info Source control is disabled
-[2017.06.26-04.38.00:610][  0]Cmd: MAP LOAD FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.26-04.38.00:613][  0]LightingResults: New page: Lighting Build
-[2017.06.26-04.38.00:782][  0]MapCheck: New page: Map Check
-[2017.06.26-04.38.00:782][  0]LightingResults: New page: Lighting Build
-[2017.06.26-04.38.04:513][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
-[2017.06.26-04.38.04:515][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2017.06.26-04.38.04:516][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube_Chamfer_DM
-[2017.06.26-04.38.04:579][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
-[2017.06.26-04.38.04:579][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2017.06.26-04.38.04:579][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube_Chamfer_DM
-[2017.06.26-04.38.04:639][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
-[2017.06.26-04.38.04:640][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading NULL.
-[2017.06.26-04.38.04:640][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
-[2017.06.26-04.38.04:641][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading NULL.
-[2017.06.26-04.38.04:817][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
-[2017.06.26-04.38.04:818][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube_Chamfer_DM.1M_Cube_Chamfer_DM Referenced by DestructibleComponent0
-[2017.06.26-04.38.04:818][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading NULL.
-[2017.06.26-04.38.04:818][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube_Chamfer_DM.1M_Cube_Chamfer_DM Referenced by DestructibleComponent0
-[2017.06.26-04.38.06:132][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.06.26-04.38.06:228][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.26-04.38.06:232][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.26-04.38.06:332][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.526ms to complete.
-[2017.06.26-04.38.06:332][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.724
-[2017.06.26-04.38.06:819][  0]LogCollectionManager: Loaded 0 collections in 0.003446 seconds
-[2017.06.26-04.38.07:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Collections/' took 0.01s
-[2017.06.26-04.38.07:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Developers/1/Collections/' took 0.01s
-[2017.06.26-04.38.07:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Collections/' took 0.01s
-[2017.06.26-04.38.07:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.06.26-04.38.07:032][  0]LogContentBrowser: Native class hierarchy populated in 0.0225 seconds. Added 2245 classes and 453 folders.
-[2017.06.26-04.38.07:199][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.06.26-04.38.07:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.06.26-04.38.07:654][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.06.26-04.38.08:059][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.26-04.38.08:086][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.26-04.38.08:235][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.06.26-04.38.08:236][  0]LogLoad: (Engine Initialization) Total time: 73.95 seconds
-[2017.06.26-04.38.08:236][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.38 seconds
-[2017.06.26-04.38.08:236][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.26-04.38.08:236][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.26-04.38.08:583][  0]LogOcInput: OculusInput pre-init called
-[2017.06.26-04.38.08:636][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.06.26-04.38.08:675][  0]LogSlate: Took 0.002224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.26-04.38.08:697][  0]LogSlate: Took 0.023223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.06.26-04.38.08:717][  0]LogSlate: Took 0.002278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.26-04.38.08:736][  0]LogSlate: Took 0.003395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.26-04.38.09:042][  0]LogSlate: Took 0.002408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.26-04.38.09:145][  0]LogRenderer: Reallocating scene render targets to support 924x408 NumSamples 1 (Frame:2).
-[2017.06.26-04.38.10:299][  4]LogAssetRegistry: Asset discovery search completed in 45.8699 seconds
-[2017.06.26-04.38.10:299][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000018 seconds (found 0 objects)
-[2017.06.26-04.38.10:299][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2017.06.26-04.38.12:626][ 11]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.26-04.38.12:778][ 11]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
-[2017.06.26-04.38.13:019][ 11]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
-[2017.06.26-04.38.14:174][ 12]Cmd: QUIT_EDITOR
-[2017.06.26-04.38.14:321][ 12]LogExit: Preparing to exit.
-[2017.06.26-04.38.15:430][ 12]LogExit: Editor shut down
-[2017.06.26-04.38.15:430][ 12]LogExit: Transaction tracking system shut down
-[2017.06.26-04.38.15:846][ 12]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.26-04.38.15:846][ 12]LogExit: Object subsystem successfully closed.
-[2017.06.26-04.38.15:874][ 12]LogD3D11RHI: Shutdown
-[2017.06.26-04.38.15:874][ 12]LogD3D11RHI: CleanupD3DDevice
-[2017.06.26-04.38.16:217][ 12]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.26-04.38.16:253][ 12]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.06.26-04.38.16:253][ 12]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
-[2017.06.26-04.38.16:253][ 12]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
-[2017.06.26-04.38.16:253][ 12]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
-[2017.06.26-04.38.16:254][ 12]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
-[2017.06.26-04.38.16:256][ 12]LogDirectoryWatcher: A directory notification for 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Collections/' was aborted.
-[2017.06.26-04.38.16:256][ 12]LogDirectoryWatcher: A directory notification for 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Developers/1/Collections/' was aborted.
-[2017.06.26-04.38.16:256][ 12]LogDirectoryWatcher: A directory notification for 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Collections/' was aborted.
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.06.26-04.38.16:256][ 12]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.06.26-04.38.16:257][ 12]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.06.26-04.38.16:257][ 12]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.06.26-04.38.16:257][ 12]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.06.26-04.38.16:257][ 12]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.06.26-04.38.16:258][ 12]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.06.26-04.38.16:259][ 12]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.06.26-04.38.16:260][ 12]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.06.26-04.38.16:261][ 12]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.06.26-04.38.16:261][ 12]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.06.26-04.38.16:261][ 12]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.06.26-04.38.16:261][ 12]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.06.26-04.38.16:261][ 12]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.06.26-04.38.17:265][ 12]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.06.26-04.38.17:265][ 12]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.06.26-04.38.17:265][ 12]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.06.26-04.38.17:265][ 12]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.06.26-04.38.17:270][ 12]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.06.26-04.38.17:270][ 12]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.06.26-04.38.17:270][ 12]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.06.26-04.38.17:270][ 12]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.06.26-04.38.17:270][ 12]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.06.26-04.38.17:271][ 12]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.06.26-04.38.17:272][ 12]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.06.26-04.38.17:272][ 12]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.06.26-04.38.17:273][ 12]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.06.26-04.38.17:278][ 12]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.06.26-04.38.17:278][ 12]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.06.26-04.38.17:279][ 12]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.06.26-04.38.17:280][ 12]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.06.26-04.38.17:334][ 12]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.06.26-04.38.17:334][ 12]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.06.26-04.38.17:411][ 12]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.06.26-04.38.17:413][ 12]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.06.26-04.38.17:413][ 12]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.06.26-04.38.17:413][ 12]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.06.26-04.38.17:413][ 12]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.06.26-04.38.17:413][ 12]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.06.26-04.38.17:413][ 12]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.06.26-04.38.17:417][ 12]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.06.26-04.38.17:421][ 12]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.06.26-04.38.17:421][ 12]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.06.26-04.38.17:421][ 12]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.06.26-04.38.17:422][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.06.26-04.38.17:422][ 12]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.06.26-04.38.17:422][ 12]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.06.26-04.38.17:422][ 12]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.06.26-04.38.17:423][ 12]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.06.26-04.38.17:424][ 12]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.06.26-04.38.17:424][ 12]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.06.26-04.38.17:633][ 12]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.06.26-04.38.17:642][ 12]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.06.26-04.38.17:644][ 12]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.06.26-04.38.17:645][ 12]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.06.26-04.38.17:645][ 12]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.06.26-04.38.17:645][ 12]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.06.26-04.38.17:645][ 12]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.06.26-04.38.17:645][ 12]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.06.26-04.38.17:645][ 12]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.06.26-04.38.17:646][ 12]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.06.26-04.38.17:647][ 12]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.06.26-04.38.17:648][ 12]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.06.26-04.38.17:648][ 12]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.06.26-04.38.17:648][ 12]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.06.26-04.38.17:650][ 12]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.06.26-04.38.17:652][ 12]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.06.26-04.38.17:652][ 12]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.06.26-04.38.17:652][ 12]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.06.26-04.38.17:652][ 12]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.06.26-04.38.17:753][ 12]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.06.26-04.38.17:854][ 12]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.06.26-04.38.17:857][ 12]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.06.26-04.38.17:857][ 12]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.06.26-04.38.17:857][ 12]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.06.26-04.38.17:857][ 12]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.06.26-04.38.17:858][ 12]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.06.26-04.38.17:858][ 12]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.06.26-04.38.17:860][ 12]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.06.26-04.38.17:860][ 12]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.06.26-04.38.17:860][ 12]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.06.26-04.38.17:860][ 12]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.06.26-04.38.17:860][ 12]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.06.26-04.38.17:860][ 12]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.06.26-04.38.17:861][ 12]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.06.26-04.38.17:861][ 12]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.06.26-04.38.17:862][ 12]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.06.26-04.38.17:865][ 12]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.06.26-04.38.17:865][ 12]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.06.26-04.38.17:866][ 12]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.06.26-04.38.17:869][ 12]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.06.26-04.38.17:869][ 12]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.06.26-04.38.17:869][ 12]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.06.26-04.38.17:870][ 12]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.06.26-04.38.17:870][ 12]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.06.26-04.38.17:875][ 12]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.06.26-04.38.17:875][ 12]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.06.26-04.38.17:875][ 12]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.06.26-04.38.17:875][ 12]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.06.26-04.38.17:875][ 12]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.06.26-04.38.17:875][ 12]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.06.26-04.38.18:105][ 12]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.06.26-04.38.18:105][ 12]LogDirectoryWatcher: A directory notification for 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/' was aborted.
-[2017.06.26-04.38.18:105][ 12]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.06.26-04.38.18:106][ 12]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.06.26-04.38.18:108][ 12]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.06.26-04.38.18:108][ 12]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.06.26-04.38.18:108][ 12]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.06.26-04.38.18:109][ 12]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.06.26-04.38.18:109][ 12]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.06.26-04.38.18:109][ 12]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.06.26-04.38.18:109][ 12]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.06.26-04.38.18:109][ 12]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.06.26-04.38.18:144][ 12]LogDerivedDataCache: Shutdown
-[2017.06.26-04.38.18:144][ 12]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.06.26-04.38.18:144][ 12]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.06.26-04.38.18:144][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.06.26-04.38.18:145][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.06.26-04.38.18:145][ 12]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.06.26-04.38.18:146][ 12]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.06.26-04.38.18:147][ 12]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.06.26-04.38.18:147][ 12]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.26-04.38.18:148][ 12]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.06.26-04.38.18:149][ 12]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.06.26-04.38.18:149][ 12]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.06.26-04.38.18:149][ 12]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F6DAA8B-44DF-2F99-0D48-CAB46D1561F6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=fc0ab5e14c29e395dee894bb26e0e4c8%7Ccbf7e4b3a2fa4a3483ff9ae11ae13430%7C0a898179-1db4-4ad6-89ab-2983492e6393&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.06.26-04.38.18:170][ 12]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.06.26-04.38.18:173][ 12]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.26-04.38.18:174][ 12]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.26-04.38.18:175][ 12]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.26-04.38.18:175][ 12]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.26-04.38.18:175][ 12]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.26-04.38.18:180][ 12]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.26-04.38.18:181][ 12]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.26-04.38.18:186][ 12]LogExit: Exiting.
-[2017.06.26-04.38.18:189][ 12]Log file closed, 06/26/17 12:38:18
+[2017.06.26-09.38.21:022][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.26-09.38.21:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.26-09.38.21:058][  0]LogInit: Computer: DESKTOP-44SKKF1
+[2017.06.26-09.38.21:058][  0]LogInit: User: 1
+[2017.06.26-09.38.21:058][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.26-09.38.21:058][  0]LogInit: High frequency timer resolution =1.754523 MHz
+[2017.06.26-09.38.21:058][  0]LogMemory: Memory total: Physical=7.3GB (8GB approx)
+[2017.06.26-09.38.21:058][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.26-09.38.21:058][  0]LogMemory: Process Physical Memory: 262.73 MB used, 262.73 MB peak
+[2017.06.26-09.38.21:058][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2017.06.26-09.38.21:058][  0]LogMemory: Physical Memory: 3430.29 MB used,  4055.05 MB free, 7485.34 MB total
+[2017.06.26-09.38.21:058][  0]LogMemory: Virtual Memory: 643.93 MB used,  4055.05 MB free, 134217728.00 MB total
+[2017.06.26-09.38.21:282][  0]LogInit: Overriding culture en with editor configuration.
+[2017.06.26-09.38.23:051][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.26-09.38.23:095][  0]LogD3D11RHI:    0. 'AMD Radeon R6 Graphics' (Feature Level 11_0)
+[2017.06.26-09.38.23:095][  0]LogD3D11RHI:       487/0/3742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.06.26-09.38.23:100][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.26-09.38.23:100][  0]LogD3D11RHI:       0/0/3742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.26-09.38.23:100][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.26-09.38.23:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.26-09.38.23:127][  0]LogD3D11RHI:     GPU DeviceId: 0x9874 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.26-09.38.23:127][  0]LogWindows: EnumDisplayDevices:
+[2017.06.26-09.38.23:127][  0]LogWindows:    0. 'AMD Radeon R6 Graphics' (P:1 D:1)
+[2017.06.26-09.38.23:129][  0]LogWindows:    1. 'AMD Radeon R6 Graphics' (P:0 D:0)
+[2017.06.26-09.38.23:130][  0]LogWindows:    2. 'AMD Radeon R6 Graphics' (P:0 D:0)
+[2017.06.26-09.38.23:131][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.06.26-09.38.23:131][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R6 Graphics
+[2017.06.26-09.38.23:132][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.06.26-09.38.23:132][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.06.26-09.38.23:132][  0]LogRHI: Texture pool is 340 MB (70% of 487 MB)
+[2017.06.26-09.38.23:241][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.26-09.38.23:263][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2017.06.26-09.38.23:266][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/lenovo/Documents/GitHub/loli/萝莉/Intermediate/Shaders/WorkingDirectory/292860/).
+[2017.06.26-09.38.23:266][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/5C50BF5F4D5AED8D5ABC719BCBC44E94/'.
+[2017.06.26-09.38.23:266][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.26-09.38.26:789][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.26-09.38.26:940][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.26-09.38.27:089][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.26-09.38.27:230][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.26-09.38.27:369][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.26-09.38.27:494][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.26-09.38.27:637][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.26-09.38.27:778][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.26-09.38.27:886][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.26-09.38.28:023][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.26-09.38.28:156][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.26-09.38.28:292][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.26-09.38.28:427][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.26-09.38.28:556][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.26-09.38.28:689][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.26-09.38.28:953][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.26-09.38.28:953][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.26-09.38.29:046][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.26-09.38.29:255][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.26-09.38.29:342][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.26-09.38.29:502][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.26-09.38.29:641][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.26-09.38.29:772][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.26-09.38.29:901][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.26-09.38.29:901][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.26-09.38.31:012][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.26-09.38.31:381][  0]LogDerivedDataCache: Loaded boot cache 0.37s 50MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.26-09.38.31:381][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lenovo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.26-09.38.31:382][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/lenovo/Documents/GitHub/loli/萝莉/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.26-09.38.31:382][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.26-09.38.31:382][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/lenovo/Documents/GitHub/loli/萝莉/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.26-09.38.31:382][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.26-09.38.31:421][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.26-09.38.31:440][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.26-09.38.31:462][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.26-09.38.31:466][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.26-09.38.31:466][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.26-09.38.32:563][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.26-09.38.32:569][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.26-09.38.33:065][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.26-09.38.33:177][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.26-09.38.33:286][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.26-09.38.33:286][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.26-09.38.33:286][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.26-09.38.34:923][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: 萝莉, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2312337547
+[2017.06.26-09.38.35:019][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2017.06.26-09.38.35:145][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.061601 seconds
+[2017.06.26-09.38.35:161][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.26-09.38.35:161][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.26-09.38.35:161][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.26-09.38.35:339][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.26-09.38.40:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.26-09.38.41:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.26-09.38.42:244][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.26-09.38.43:305][  0]SourceControl: Info Source control is disabled
+[2017.06.26-09.38.43:317][  0]SourceControl: Info Source control is disabled
+[2017.06.26-09.38.43:456][  0]SourceControl: Info Source control is disabled
+[2017.06.26-09.38.43:578][  0]SourceControl: Info Source control is disabled
+[2017.06.26-09.38.47:090][  0]LogEngine: Initializing Engine...
+[2017.06.26-09.38.47:097][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.26-09.38.47:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.26-09.38.47:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.26-09.38.47:730][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.26-09.38.47:809][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.26-09.38.49:011][  0]LogInit: FAudioDevice initialized.
+[2017.06.26-09.38.49:100][  0]LogDerivedDataCache: Saved boot cache 0.09s 50MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.26-09.38.49:152][  0]LogInit: Texture streaming: Enabled
+[2017.06.26-09.38.49:487][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.26-09.38.49:850][  0]LogInit: Transaction tracking system initialized
+[2017.06.26-09.38.51:052][  0]BlueprintLog: New page: Editor Load
+[2017.06.26-09.38.54:269][  0]LocalizationService: Info Localization service is disabled
+[2017.06.26-09.38.56:869][  0]LogConsoleResponse:Display: 
+[2017.06.26-09.38.57:290][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.26-09.38.57:290][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.26-09.38.58:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/' took 0.03s
+[2017.06.26-09.39.00:687][  0]SourceControl: Info Source control is disabled
+[2017.06.26-09.39.00:688][  0]Cmd: MAP LOAD FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.26-09.39.00:689][  0]LightingResults: New page: Lighting Build
+[2017.06.26-09.39.00:829][  0]MapCheck: New page: Map Check
+[2017.06.26-09.39.00:829][  0]LightingResults: New page: Lighting Build
+[2017.06.26-09.39.03:202][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
+[2017.06.26-09.39.03:203][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.06.26-09.39.03:203][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube_Chamfer_DM
+[2017.06.26-09.39.03:224][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
+[2017.06.26-09.39.03:224][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.06.26-09.39.03:224][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Geometry/Meshes/1M_Cube_Chamfer_DM
+[2017.06.26-09.39.03:258][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
+[2017.06.26-09.39.03:258][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading NULL.
+[2017.06.26-09.39.03:259][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
+[2017.06.26-09.39.03:259][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading NULL.
+[2017.06.26-09.39.03:325][  0]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM'
+[2017.06.26-09.39.03:325][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube_Chamfer_DM.1M_Cube_Chamfer_DM Referenced by DestructibleComponent0
+[2017.06.26-09.39.03:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Geometry/Meshes/1M_Cube_Chamfer_DM' while loading NULL.
+[2017.06.26-09.39.03:325][  0]LoadErrors: Info Failed to load /Game/Geometry/Meshes/1M_Cube_Chamfer_DM.1M_Cube_Chamfer_DM Referenced by DestructibleComponent0
+[2017.06.26-09.39.04:704][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.26-09.39.04:842][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.26-09.39.04:845][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.26-09.39.04:972][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.553ms to complete.
+[2017.06.26-09.39.04:972][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.284
+[2017.06.26-09.39.55:844][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-09.39.56:131][  0]LogCollectionManager: Loaded 0 collections in 0.003823 seconds
+[2017.06.26-09.39.56:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Collections/' took 0.01s
+[2017.06.26-09.39.56:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Developers/1/Collections/' took 0.01s
+[2017.06.26-09.39.56:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Collections/' took 0.01s
+[2017.06.26-09.39.56:312][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.26-09.39.56:344][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 2245 classes and 453 folders.
+[2017.06.26-09.39.56:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.26-09.39.56:770][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.06.26-09.39.56:888][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.06.26-09.39.57:172][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.26-09.39.57:239][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.26-09.39.57:394][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.06.26-09.39.57:395][  0]LogLoad: (Engine Initialization) Total time: 100.94 seconds
+[2017.06.26-09.39.57:395][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.36 seconds
+[2017.06.26-09.39.57:395][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.26-09.39.57:395][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.26-09.39.57:416][  0]LogOcInput: OculusInput pre-init called
+[2017.06.26-09.39.57:469][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.06.26-09.39.57:490][  0]LogSlate: Took 0.002340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.26-09.39.57:517][  0]LogSlate: Took 0.026512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.26-09.39.57:530][  0]LogSlate: Took 0.001880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.26-09.39.57:545][  0]LogSlate: Took 0.002514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.26-09.39.57:849][  0]LogSlate: Took 0.001925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.26-09.39.57:950][  0]LogRenderer: Reallocating scene render targets to support 924x408 NumSamples 1 (Frame:2).
+[2017.06.26-09.39.58:434][  4]LogAssetRegistry: Asset discovery search completed in 83.4396 seconds
+[2017.06.26-09.39.58:434][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000038 seconds (found 0 objects)
+[2017.06.26-09.39.58:434][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2017.06.26-09.40.18:290][938]LogHttp:Warning: 000001D0C6056080: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.06.26-09.40.18:290][938]LogHttp:Warning: 000001D0C6056080: libcurl info message cache 0 (  Trying 13.32.195.191...)
+[2017.06.26-09.40.18:290][938]LogHttp:Warning: 000001D0C6056080: libcurl info message cache 1 (connect to 13.32.195.191 port 80 failed: Timed out)
+[2017.06.26-09.40.18:290][938]LogHttp:Warning: 000001D0C6056080: libcurl info message cache 2 (Failed to connect to cdn.unrealengine.com port 80: Timed out)
+[2017.06.26-09.40.18:290][938]LogHttp:Warning: 000001D0C6056080: libcurl info message cache 3 (Closing connection 0)
+[2017.06.26-09.40.39:336][135]LogHttp:Warning: 000001D0C8F40D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.06.26-09.40.39:336][135]LogHttp:Warning: 000001D0C8F40D00: libcurl info message cache 0 (Hostname cdn.unrealengine.com was found in DNS cache)
+[2017.06.26-09.40.39:336][135]LogHttp:Warning: 000001D0C8F40D00: libcurl info message cache 1 (  Trying 13.32.195.191...)
+[2017.06.26-09.40.39:336][135]LogHttp:Warning: 000001D0C8F40D00: libcurl info message cache 2 (connect to 13.32.195.191 port 80 failed: Timed out)
+[2017.06.26-09.40.39:336][135]LogHttp:Warning: 000001D0C8F40D00: libcurl info message cache 3 (Failed to connect to cdn.unrealengine.com port 80: Timed out)
+[2017.06.26-09.40.39:336][135]LogHttp:Warning: 000001D0C8F40D00: libcurl info message cache 4 (Closing connection 1)
+[2017.06.26-10.21.19:773][400]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.21.19:952][400]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.06.26-10.22.04:379][389]LogSlate: Took 0.000674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.26-10.22.08:463][453]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton'
+[2017.06.26-10.22.08:464][453]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPerson_AnimBP2.uasset.
+[2017.06.26-10.22.08:464][453]LoadErrors:Error: Error /Game/ThirdPerson_AnimBP2 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton
+[2017.06.26-10.22.08:466][453]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton'
+[2017.06.26-10.22.08:466][453]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/ThirdPerson_AnimBP2.uasset.
+[2017.06.26-10.22.08:467][453]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton'
+[2017.06.26-10.22.08:467][453]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton.qugan2_Skeleton Referenced by ThirdPerson_AnimBP2_C
+[2017.06.26-10.22.08:467][453]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton' while loading NULL.
+[2017.06.26-10.22.08:470][453]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton'
+[2017.06.26-10.22.08:471][453]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton' while loading NULL.
+[2017.06.26-10.22.08:471][453]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton'
+[2017.06.26-10.22.08:471][453]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton' while loading NULL.
+[2017.06.26-10.22.08:472][453]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton'
+[2017.06.26-10.22.08:472][453]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton.qugan2_Skeleton Referenced by ThirdPerson_AnimBP2
+[2017.06.26-10.22.08:472][453]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/qugan2_Skeleton' while loading NULL.
+[2017.06.26-10.22.08:509][453]LogBlueprint:Error: [Compiler ThirdPerson_AnimBP2] Error  ThirdPerson_AnimBP2  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
+[2017.06.26-10.22.08:519][453]LogBlueprint:Warning: [Compiler ThirdPerson_AnimBP2] Warning [2632.06] Compile of ThirdPerson_AnimBP2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 16 ms] (/Game/ThirdPerson_AnimBP2.ThirdPerson_AnimBP2)
+[2017.06.26-10.22.08:519][453]LogBlueprint:Warning: [Compiler ThirdPerson_AnimBP2] Warning [2632.06] Compile of ThirdPerson_AnimBP2 failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPerson_AnimBP2.ThirdPerson_AnimBP2)
+[2017.06.26-10.22.08:519][453]LogBlueprint:Warning: [Compiler ThirdPerson_AnimBP2] Warning [2632.06] Compile of ThirdPerson_AnimBP2 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPerson_AnimBP2.ThirdPerson_AnimBP2)
+[2017.06.26-10.22.54:778][994]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/站立1.站立1
+[2017.06.26-10.22.54:981][994]LogTexture:Display: Building textures: ceshiMod2贴图 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.06.26-10.22.55:152][994]LogMaterial: Missing cached shader map for material ceshiMod2, compiling. 
+[2017.06.26-10.22.55:158][994]LogTemp:Display: Added material ShaderMap 0x000001D0A8328480 with Material 0x000001D0A8416080 to ShaderMapsBeingCompiled
+[2017.06.26-10.22.55:297][994]LogTemp:Display: Kicking off shader compilation for ceshiMod2, GameThreadShaderMap 0x000001D0A8328480
+[2017.06.26-10.22.55:301][994]LogMaterial: Missing cached shader map for material ceshiMod1, compiling. 
+[2017.06.26-10.22.55:303][994]LogTemp:Display: Added material ShaderMap 0x000001D0EC369280 with Material 0x000001D0A7905000 to ShaderMapsBeingCompiled
+[2017.06.26-10.22.55:412][994]LogTemp:Display: Kicking off shader compilation for ceshiMod1, GameThreadShaderMap 0x000001D0EC369280
+[2017.06.26-10.22.55:418][994]LogSlate: Took 0.000515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.26-10.22.55:584][994]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.06.26-10.22.56:037][994]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.26-10.22.56:273][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.26-10.23.18:862][350]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑起步.小跑起步
+[2017.06.26-10.23.18:941][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.06.26-10.23.19:101][350]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.06.26-10.23.28:549][490]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑暂停.小跑暂停
+[2017.06.26-10.23.28:640][490]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.06.26-10.23.28:799][490]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.06.26-10.23.34:762][626]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑1.小跑1
+[2017.06.26-10.23.34:835][626]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.06.26-10.23.34:998][626]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.06.26-10.23.43:449][812]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/回到初始姿势.回到初始姿势
+[2017.06.26-10.23.43:533][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.06.26-10.23.43:691][812]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.06.26-10.24.07:563][407]LogTemp:Display: Finished compile of shader map 0x000001D0A8328480
+[2017.06.26-10.24.07:563][407]LogTemp:Display: Shader map ceshiMod2 complete, GameThreadShaderMap 0x000001D0A8328480, marking material ceshiMod2 as finished
+[2017.06.26-10.24.07:563][407]LogTemp:Display: Marking material as finished 0x000001D0A8416080
+[2017.06.26-10.24.18:850][707]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2017.06.26-10.24.19:314][707]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2017.06.26-10.24.22:164][762]LogRenderer: Reallocating scene render targets to support 924x500 NumSamples 1 (Frame:140951).
+[2017.06.26-10.24.31:311][958]LogTemp:Display: Finished compile of shader map 0x000001D0EC369280
+[2017.06.26-10.24.31:311][958]LogTemp:Display: Shader map ceshiMod1 complete, GameThreadShaderMap 0x000001D0EC369280, marking material ceshiMod1 as finished
+[2017.06.26-10.24.31:311][958]LogTemp:Display: Marking material as finished 0x000001D0A7905000
+[2017.06.26-10.24.37:750][249]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.24.38:000][249]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软输入法).
+[2017.06.26-10.24.38:835][272]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.24.38:835][272]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.25.09:393][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/Char2DBlendspace" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mannequin/Animations/Char2DBlendspace.uasset" SILENT=true
+[2017.06.26-10.25.09:436][326]LogSavePackage: Save=32.35ms
+[2017.06.26-10.25.09:436][326]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char2DBlendspace10F396E84C1A6CBDD4AF199961BD2CED.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mannequin/Animations/Char2DBlendspace.uasset'
+[2017.06.26-10.25.09:460][326]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mannequin/Animations/Char2DBlendspace.uasset
+[2017.06.26-10.25.17:859][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/Char2DBlendspace" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/Char2DBlendspace.uasset" SILENT=true
+[2017.06.26-10.25.17:894][740]LogSavePackage: Save=25.15ms
+[2017.06.26-10.25.17:894][740]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char2DBlendspace7F49E002440D21814D1B7EB9E035464D.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/Char2DBlendspace.uasset'
+[2017.06.26-10.25.17:921][740]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/Char2DBlendspace.uasset
+[2017.06.26-10.25.22:456][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/小钰/Char2DBlendspace" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/小钰/Char2DBlendspace.uasset" SILENT=true
+[2017.06.26-10.25.22:490][919]LogSavePackage: Save=24.18ms
+[2017.06.26-10.25.22:490][919]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char2DBlendspace378D8120474C74E1D931CF8511815D6D.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/小钰/Char2DBlendspace.uasset'
+[2017.06.26-10.25.22:517][919]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/小钰/Char2DBlendspace.uasset
+[2017.06.26-10.25.29:966][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/Char2DBlendspace" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/Char2DBlendspace.uasset" SILENT=true
+[2017.06.26-10.25.30:002][232]LogSavePackage: Save=23.97ms
+[2017.06.26-10.25.30:002][232]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char2DBlendspace2F20E9694862EB04DF6BB691B6A794DC.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/Char2DBlendspace.uasset'
+[2017.06.26-10.25.30:030][232]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/Char2DBlendspace.uasset
+[2017.06.26-10.25.36:621][448]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_6.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2017.06.26-10.25.36:727][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_6.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2017.06.26-10.25.38:289][474]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2017.06.26-10.27.00:653][792]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.26-10.28.37:968][556]LogSavePackage: Save=28.33ms
+[2017.06.26-10.28.37:968][556]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char2DBlendspace14780C044DA1AD2F29C958ABEFAAC857.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/Char2DBlendspace.uasset'
+[2017.06.26-10.28.37:998][556]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/Char2DBlendspace.uasset
+[2017.06.26-10.29.06:268][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/回到初始姿势" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/回到初始姿势.uasset" SILENT=true
+[2017.06.26-10.29.06:303][369]LogSavePackage: Save=23.14ms
+[2017.06.26-10.29.06:303][369]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/回到初始姿势AF9D8A6045D0371E447087BAA1BD255D.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/回到初始姿势.uasset'
+[2017.06.26-10.29.06:331][369]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/回到初始姿势.uasset
+[2017.06.26-10.29.06:373][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑1" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑1.uasset" SILENT=true
+[2017.06.26-10.29.06:411][369]LogSavePackage: Save=24.87ms
+[2017.06.26-10.29.06:411][369]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/小跑100B7414E4E7D8A2D2FF0A1BEC576EE37.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑1.uasset'
+[2017.06.26-10.29.06:439][369]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑1.uasset
+[2017.06.26-10.29.06:488][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑暂停" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑暂停.uasset" SILENT=true
+[2017.06.26-10.29.06:531][369]LogSavePackage: Save=21.95ms
+[2017.06.26-10.29.06:531][369]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/小跑暂停224858C54A21970E3B0772A5B0A0F952.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑暂停.uasset'
+[2017.06.26-10.29.06:556][369]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑暂停.uasset
+[2017.06.26-10.29.06:599][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑起步" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑起步.uasset" SILENT=true
+[2017.06.26-10.29.06:634][369]LogSavePackage: Save=23.65ms
+[2017.06.26-10.29.06:634][369]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/小跑起步49DE418C4817E20DBEC46EA2BCAD295C.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑起步.uasset'
+[2017.06.26-10.29.06:659][369]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/小跑起步.uasset
+[2017.06.26-10.29.06:701][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/站立1" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/站立1.uasset" SILENT=true
+[2017.06.26-10.29.06:737][369]LogSavePackage: Save=25.05ms
+[2017.06.26-10.29.06:737][369]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/站立14390FE934B1004BD3FB10C8141BDA694.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/站立1.uasset'
+[2017.06.26-10.29.06:764][369]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/L10N/en/Mod/Jingwu/Mod_J/juese/测试模型/站立1.uasset
+[2017.06.26-10.29.24:920][746]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_14' or package '/Engine/Transient'.
+[2017.06.26-10.29.24:920][746]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_11' or package '/Engine/Transient'.
+[2017.06.26-10.29.24:920][746]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2017.06.26-10.29.24:920][746]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_5' or package '/Engine/Transient'.
+[2017.06.26-10.29.24:920][746]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_20' or package '/Engine/Transient'.
+[2017.06.26-10.29.24:920][746]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.06.26-10.29.29:708][906]Cmd: TRANSACTION UNDO
+[2017.06.26-10.29.29:708][906]LogEditorTransaction: Undo AddPin
+[2017.06.26-10.29.29:768][906]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.26-10.33.05:442][327]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2017.06.26-10.33.05:452][327]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/HUD/ThrowWidget] ([1] browsable assets)...
+[2017.06.26-10.33.05:453][327]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/HUD/ThrowWidget]
+[2017.06.26-10.33.05:453][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/HUD/ThrowWidget" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Imports/HUD/ThrowWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.26-10.33.05:694][327]LogSavePackage: Save=168.25ms
+[2017.06.26-10.33.05:694][327]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/ThrowWidget_Auto1AA21A49D48094F0E22C2ECBACBA95F55.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Imports/HUD/ThrowWidget_Auto1.uasset'
+[2017.06.26-10.33.05:706][327]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Imports/HUD/ThrowWidget_Auto1.uasset
+[2017.06.26-10.33.05:706][327]LogFileHelpers: Auto-saving content packages took 0.262
+[2017.06.26-10.34.33:348][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/01_-_Default'
+[2017.06.26-10.34.33:348][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/01_-_Default' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02.uasset.
+[2017.06.26-10.34.33:349][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/01_-_Default
+[2017.06.26-10.34.33:349][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/01_-_Default'
+[2017.06.26-10.34.33:349][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/01_-_Default' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02.uasset.
+[2017.06.26-10.34.33:349][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset'
+[2017.06.26-10.34.33:349][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02.uasset.
+[2017.06.26-10.34.33:349][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset
+[2017.06.26-10.34.33:350][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:350][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02.uasset.
+[2017.06.26-10.34.33:350][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton
+[2017.06.26-10.34.33:350][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset'
+[2017.06.26-10.34.33:350][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02.uasset.
+[2017.06.26-10.34.33:351][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:351][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_2017-06-22-06-43-02.uasset.
+[2017.06.26-10.34.33:352][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:352][218]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton.小钰_小跑2_Skeleton Referenced by 小钰_小跑2
+[2017.06.26-10.34.33:352][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading NULL.
+[2017.06.26-10.34.33:353][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset'
+[2017.06.26-10.34.33:353][218]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset.小钰_小跑2_PhysicsAsset Referenced by 小钰_小跑2
+[2017.06.26-10.34.33:353][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_PhysicsAsset' while loading NULL.
+[2017.06.26-10.34.33:354][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/01_-_Default'
+[2017.06.26-10.34.33:354][218]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/01_-_Default.01_-_Default Referenced by 小钰_小跑2
+[2017.06.26-10.34.33:354][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/01_-_Default' while loading NULL.
+[2017.06.26-10.34.33:359][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:359][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-22-06-43-03.uasset.
+[2017.06.26-10.34.33:359][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-22-06-43-03 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton
+[2017.06.26-10.34.33:360][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:360][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-22-06-43-03.uasset.
+[2017.06.26-10.34.33:361][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:361][218]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton.小钰_小跑2_Skeleton Referenced by 小钰_小跑2_Anim
+[2017.06.26-10.34.33:361][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading NULL.
+[2017.06.26-10.34.33:365][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:365][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-21-17-06-24.uasset.
+[2017.06.26-10.34.33:365][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-21-17-06-24 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton
+[2017.06.26-10.34.33:365][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:365][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-21-17-06-24.uasset.
+[2017.06.26-10.34.33:366][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:367][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading NULL.
+[2017.06.26-10.34.33:370][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:370][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-21-22-05-43.uasset.
+[2017.06.26-10.34.33:370][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-21-22-05-43 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton
+[2017.06.26-10.34.33:371][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:371][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小钰_小跑2_Anim_2017-06-21-22-05-43.uasset.
+[2017.06.26-10.34.33:372][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton'
+[2017.06.26-10.34.33:373][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/小钰_小跑2_Skeleton' while loading NULL.
+[2017.06.26-10.34.33:408][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default'
+[2017.06.26-10.34.33:408][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_2017-06-22-06-45-47.uasset.
+[2017.06.26-10.34.33:408][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_2017-06-22-06-45-47 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default
+[2017.06.26-10.34.33:408][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56'
+[2017.06.26-10.34.33:408][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_2017-06-22-06-45-47.uasset.
+[2017.06.26-10.34.33:408][218]LoadErrors:Error: Error /Game/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_2017-06-22-06-45-47 : Can't find file for asset. /Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56
+[2017.06.26-10.34.33:409][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default'
+[2017.06.26-10.34.33:409][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_2017-06-22-06-45-47.uasset.
+[2017.06.26-10.34.33:409][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56'
+[2017.06.26-10.34.33:409][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56' while loading C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_2017-06-22-06-45-47.uasset.
+[2017.06.26-10.34.33:412][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default'
+[2017.06.26-10.34.33:412][218]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default.03_-_Default Referenced by 测试模型
+[2017.06.26-10.34.33:412][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/测试模型/03_-_Default' while loading NULL.
+[2017.06.26-10.34.33:412][218]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56'
+[2017.06.26-10.34.33:412][218]LoadErrors: Info Failed to load /Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56.Material__56 Referenced by 测试模型
+[2017.06.26-10.34.33:413][218]LogLinker:Warning: Can't find file for asset '/Game/Mod/Jingwu/Mod_J/juese/测试模型/Material__56' while loading NULL.
+[2017.06.26-10.34.33:472][218]LogAnimation:Warning: SkeletalMesh 小钰_小跑2 has no skeleton. This needs to fixed before an animation can be set
+[2017.06.26-10.34.41:958][357]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_12' or package '/Engine/Transient'.
+[2017.06.26-10.34.41:958][357]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_9' or package '/Engine/Transient'.
+[2017.06.26-10.34.41:958][357]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_6' or package '/Engine/Transient'.
+[2017.06.26-10.34.41:959][357]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_3' or package '/Engine/Transient'.
+[2017.06.26-10.34.41:959][357]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.06.26-10.35.36:141][821]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_14' or package '/Engine/Transient'.
+[2017.06.26-10.35.36:141][821]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_11' or package '/Engine/Transient'.
+[2017.06.26-10.35.36:141][821]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.06.26-10.35.36:141][821]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2017.06.26-10.35.36:141][821]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_5' or package '/Engine/Transient'.
+[2017.06.26-10.35.36:141][821]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.06.26-10.35.43:344][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_Skeleton" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_Skeleton.uasset" SILENT=true
+[2017.06.26-10.35.43:412][821]LogSavePackage: Save=6.80ms
+[2017.06.26-10.35.43:412][821]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/测试模型_SkeletonFC25CC464D593DE6D2AED4AEB554B022.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_Skeleton.uasset'
+[2017.06.26-10.35.43:436][821]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_Skeleton.uasset
+[2017.06.26-10.36.24:703][135]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑1_2017-06-23-06-20-59.小跑1
+[2017.06.26-10.36.24:731][135]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/测试模型'
+[2017.06.26-10.36.24:733][135]LogLinker:Warning: Can't find file '/Game/Mod/Jingwu/Mod_J/juese/测试模型/测试模型'
+[2017.06.26-10.36.24:735][135]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Mod/Jingwu/Mod_J/juese/测试模型/测试模型.测试模型'
+[2017.06.26-10.36.40:354][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑1m" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小跑1m.uasset" SILENT=true
+[2017.06.26-10.36.40:384][855]LogSavePackage: Save=17.09ms
+[2017.06.26-10.36.40:384][855]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/小跑1mA59FD4F8449BE948C8356886172807DC.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小跑1m.uasset'
+[2017.06.26-10.36.40:407][855]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/小跑1m.uasset
+[2017.06.26-10.36.41:851][903]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑1_2017-06-23-06-44-28.小跑1
+[2017.06.26-10.36.51:780][287]LogSlate: Took 0.002101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.26-10.38.47:333][752]Cmd: TRANSACTION UNDO
+[2017.06.26-10.38.47:333][752]LogEditorTransaction: Undo AddPin
+[2017.06.26-10.38.53:495][989]LogRenderer: Reallocating scene render targets to support 924x672 NumSamples 1 (Frame:176530).
+[2017.06.26-10.39.14:173][483]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.Actor_12.DebugSkelMeshComponent_32) Already registered. Aborting.
+[2017.06.26-10.39.14:300][483]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_39:PersistentLevel.Actor_12.DebugSkelMeshComponent_32) - call TermArticulated first.
+[2017.06.26-10.39.38:768][890]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_13.DebugSkelMeshComponent_33) Already registered. Aborting.
+[2017.06.26-10.39.38:876][890]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_13.DebugSkelMeshComponent_33) - call TermArticulated first.
+[2017.06.26-10.39.43:106][ 13]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_14.DebugSkelMeshComponent_36) Already registered. Aborting.
+[2017.06.26-10.39.43:216][ 13]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_14.DebugSkelMeshComponent_36) - call TermArticulated first.
+[2017.06.26-10.39.48:311][179]LogSavePackage: Save=10.76ms
+[2017.06.26-10.39.48:311][179]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/测试模型_Skeleton_2017-06-22-07-42-19AA09ACC44BCCFB31FBA129A6D0AF16B4.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_Skeleton_2017-06-22-07-42-19.uasset'
+[2017.06.26-10.39.48:336][179]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/测试模型_Skeleton_2017-06-22-07-42-19.uasset
+[2017.06.26-10.41.33:074][249]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/小跑起步_2017-06-23-06-47-48.小跑起步
+[2017.06.26-10.41.33:128][249]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_15.DebugSkelMeshComponent_37) Already registered. Aborting.
+[2017.06.26-10.41.33:234][249]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.Actor_15.DebugSkelMeshComponent_37) - call TermArticulated first.
+[2017.06.26-10.42.09:661][699]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_16.DebugSkelMeshComponent_40) Already registered. Aborting.
+[2017.06.26-10.42.09:758][699]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_47:PersistentLevel.Actor_16.DebugSkelMeshComponent_40) - call TermArticulated first.
+[2017.06.26-10.43.45:332][714]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.039
+[2017.06.26-10.43.45:344][714]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/HUD/ThrowWidget] ([1] browsable assets)...
+[2017.06.26-10.43.45:344][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/HUD/ThrowWidget]
+[2017.06.26-10.43.45:344][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/HUD/ThrowWidget" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Imports/HUD/ThrowWidget_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.26-10.43.45:635][714]LogSavePackage: Save=203.19ms
+[2017.06.26-10.43.45:635][714]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/ThrowWidget_Auto2972058844F1555D60A4EF6BEFB17D364.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Imports/HUD/ThrowWidget_Auto2.uasset'
+[2017.06.26-10.43.45:649][714]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Imports/HUD/ThrowWidget_Auto2.uasset
+[2017.06.26-10.43.45:659][714]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS] ([1] browsable assets)...
+[2017.06.26-10.43.45:688][714]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS.Char1DBS]
+[2017.06.26-10.43.45:688][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS]
+[2017.06.26-10.43.45:713][714]LogSavePackage: Save=16.34ms
+[2017.06.26-10.43.45:713][714]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char1DBS_Auto24816F9BF4B660EE3166C889E95579F46.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS_Auto2.uasset'
+[2017.06.26-10.43.45:728][714]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS_Auto2.uasset
+[2017.06.26-10.43.45:729][714]LogFileHelpers: Auto-saving content packages took 0.394
+[2017.06.26-10.47.05:146][535]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mod/Jingwu/Mod_J/juese/测试模型/站立1.站立1
+[2017.06.26-10.47.05:215][535]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.Actor_17.DebugSkelMeshComponent_42) Already registered. Aborting.
+[2017.06.26-10.47.05:324][535]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_49:PersistentLevel.Actor_17.DebugSkelMeshComponent_42) - call TermArticulated first.
+[2017.06.26-10.47.11:203][765]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.Actor_18.DebugSkelMeshComponent_45) Already registered. Aborting.
+[2017.06.26-10.47.11:299][765]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_52:PersistentLevel.Actor_18.DebugSkelMeshComponent_45) - call TermArticulated first.
+[2017.06.26-10.47.24:630][280]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.Actor_19.DebugSkelMeshComponent_48) Already registered. Aborting.
+[2017.06.26-10.47.24:739][280]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_55:PersistentLevel.Actor_19.DebugSkelMeshComponent_48) - call TermArticulated first.
+[2017.06.26-10.48.53:199][317]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.Actor_20.DebugSkelMeshComponent_50) Already registered. Aborting.
+[2017.06.26-10.48.53:296][317]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_57:PersistentLevel.Actor_20.DebugSkelMeshComponent_50) - call TermArticulated first.
+[2017.06.26-10.50.18:395][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS.uasset" SILENT=true
+[2017.06.26-10.50.18:426][870]LogSavePackage: Save=21.27ms
+[2017.06.26-10.50.18:426][870]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Char1DBSDAFC36C54E69C9998CF308A078C0ADBD.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS.uasset'
+[2017.06.26-10.50.18:450][870]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/Char1DBS.uasset
+[2017.06.26-10.50.29:574][264]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_52' or package '/Engine/Transient'.
+[2017.06.26-10.50.29:574][264]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_19' or package '/Engine/Transient'.
+[2017.06.26-10.53.04:439][835]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.53.04:463][835]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.06.26-10.53.10:138][106]LogEditorViewport: Clicking on Actor (LMB): TPDefaultChar_C (TPDefaultChar)
+[2017.06.26-10.53.48:913][516]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.Actor_21.DebugSkelMeshComponent_52) Already registered. Aborting.
+[2017.06.26-10.53.50:286][516]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 112 classes and 0 folders.
+[2017.06.26-10.53.51:310][516]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_60:PersistentLevel.Actor_21.DebugSkelMeshComponent_52) - call TermArticulated first.
+[2017.06.26-10.53.51:581][516]LogSlate: Took 0.002219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.26-10.54.36:986][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.048
+[2017.06.26-10.54.36:994][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_AnimBP] ([1] browsable assets)...
+[2017.06.26-10.54.37:023][140]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP]
+[2017.06.26-10.54.37:023][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_AnimBP]
+[2017.06.26-10.54.37:217][140]LogSavePackage: Save=110.93ms
+[2017.06.26-10.54.37:217][140]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/ThirdPerson_AnimBP_Auto3B92E113B4B567A6B273583A99459B52E.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto3.uasset'
+[2017.06.26-10.54.37:232][140]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto3.uasset
+[2017.06.26-10.54.37:232][140]LogFileHelpers: Auto-saving content packages took 0.244
+[2017.06.26-10.55.19:190][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2017.06.26-10.55.19:321][345]LogSavePackage: Save=71.97ms
+[2017.06.26-10.55.19:322][345]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/ThirdPerson_AnimBPBF2F3A314A477201CD29238AA93795C2.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2017.06.26-10.55.19:346][345]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.06.26-10.55.55:225][907]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.55.55:670][907]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软输入法).
+[2017.06.26-10.55.56:544][928]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.55.56:544][928]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.SKEL_CharAnimBP_C:ExecuteUbergraph_CharAnimBP' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.SKEL_CharAnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.SKEL_CharAnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.SKEL_CharAnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.SKEL_CharAnimBP_C' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.CharAnimBP_C' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.CharAnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.CharAnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:541][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.CharAnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:542][398]LogMetaData: Removing '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.CharAnimBP_C:ExecuteUbergraph_CharAnimBP' ref from Metadata '/Game/Mannequin/Animations/CharAnimBP.PackageMetaData'
+[2017.06.26-10.56.09:606][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.uasset" SILENT=true
+[2017.06.26-10.56.09:709][398]LogSavePackage: Save=93.30ms
+[2017.06.26-10.56.09:709][398]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/CharAnimBP6FCFF061432E8AC3009489AEC6D51E78.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.uasset'
+[2017.06.26-10.56.09:736][398]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP.uasset
+[2017.06.26-10.56.13:344][501]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.Actor_22.DebugSkelMeshComponent_54) Already registered. Aborting.
+[2017.06.26-10.56.13:650][501]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_64:PersistentLevel.Actor_22.DebugSkelMeshComponent_54) - call TermArticulated first.
+[2017.06.26-10.56.17:592][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_66:PersistentLevel.Actor_23.DebugSkelMeshComponent_56) Already registered. Aborting.
+[2017.06.26-10.56.17:688][589]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_66:PersistentLevel.Actor_23.DebugSkelMeshComponent_56) - call TermArticulated first.
+[2017.06.26-10.57.03:982][456]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.Actor_24.DebugSkelMeshComponent_57) Already registered. Aborting.
+[2017.06.26-10.57.04:097][456]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_67:PersistentLevel.Actor_24.DebugSkelMeshComponent_57) - call TermArticulated first.
+[2017.06.26-11.01.03:137][848]Cmd: TRANSACTION UNDO
+[2017.06.26-11.01.03:137][848]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.06.26-11.01.03:147][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.Actor_22.DebugSkelMeshComponent_54) Already registered. Aborting.
+[2017.06.26-11.01.03:171][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.Actor_21.DebugSkelMeshComponent_52) Already registered. Aborting.
+[2017.06.26-11.01.03:205][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_66:PersistentLevel.Actor_23.DebugSkelMeshComponent_56) Already registered. Aborting.
+[2017.06.26-11.01.03:214][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.Actor_24.DebugSkelMeshComponent_57) Already registered. Aborting.
+[2017.06.26-11.01.47:615][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_69:PersistentLevel.Actor_25.DebugSkelMeshComponent_59) Already registered. Aborting.
+[2017.06.26-11.01.47:743][435]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_69:PersistentLevel.Actor_25.DebugSkelMeshComponent_59) - call TermArticulated first.
+[2017.06.26-11.04.37:744][491]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.048
+[2017.06.26-11.04.37:755][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D] ([1] browsable assets)...
+[2017.06.26-11.04.37:840][491]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D]
+[2017.06.26-11.04.37:840][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D]
+[2017.06.26-11.04.37:989][491]LogSavePackage: Save=40.15ms
+[2017.06.26-11.04.37:989][491]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/ThirdPerson_IdleRun_2D_Auto466C877914300D9CCEB97E3A35CE40F87.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D_Auto4.uasset'
+[2017.06.26-11.04.38:009][491]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D_Auto4.uasset
+[2017.06.26-11.04.38:039][491]LogSavePackage: Save=8.40ms
+[2017.06.26-11.04.38:039][491]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/CharAnimBP_Auto438075FF04CFE4C6E1767468C30C8ECF6.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mannequin/Animations/CharAnimBP_Auto4.uasset'
+[2017.06.26-11.04.38:059][491]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/Mannequin/Animations/CharAnimBP_Auto4.uasset
+[2017.06.26-11.04.38:059][491]LogFileHelpers: Auto-saving content packages took 0.313
+[2017.06.26-11.05.32:517][710]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.05.32:528][710]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.06.26-11.06.43:616][330]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.06.44:846][330]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软输入法).
+[2017.06.26-11.06.46:502][347]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.06.46:502][347]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.21.18:983][614]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.21.19:001][614]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.06.26-11.22.24:599][ 83]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_39' or package '/Engine/Transient'.
+[2017.06.26-11.22.32:152][189]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_47' or package '/Engine/Transient'.
+[2017.06.26-11.22.57:923][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_74:PersistentLevel.Actor_26.DebugSkelMeshComponent_61) Already registered. Aborting.
+[2017.06.26-11.22.58:392][780]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_74:PersistentLevel.Actor_26.DebugSkelMeshComponent_61) - call TermArticulated first.
+[2017.06.26-11.25.20:263][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_77:PersistentLevel.Actor_27.DebugSkelMeshComponent_63) Already registered. Aborting.
+[2017.06.26-11.25.20:707][223]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_77:PersistentLevel.Actor_27.DebugSkelMeshComponent_63) - call TermArticulated first.
+[2017.06.26-11.25.41:374][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_79:PersistentLevel.Actor_28.DebugSkelMeshComponent_65) Already registered. Aborting.
+[2017.06.26-11.25.41:501][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_79:PersistentLevel.Actor_28.DebugSkelMeshComponent_65) - call TermArticulated first.
+[2017.06.26-11.33.00:213][931]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.33.00:713][931]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软输入法).
+[2017.06.26-11.33.02:258][980]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.33.02:258][980]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-11.33.12:501][248]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_82:PersistentLevel.Actor_29.DebugSkelMeshComponent_66) Already registered. Aborting.
+[2017.06.26-11.33.13:472][248]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_82:PersistentLevel.Actor_29.DebugSkelMeshComponent_66) - call TermArticulated first.
+[2017.06.26-11.34.11:183][237]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.Actor_30.DebugSkelMeshComponent_68) Already registered. Aborting.
+[2017.06.26-11.34.11:579][237]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_85:PersistentLevel.Actor_30.DebugSkelMeshComponent_68) - call TermArticulated first.
+[2017.06.26-11.34.35:698][595]LogBlueprint:Warning: [XiaoYuAnimBP] 'Speed' variable not found. Base class was probably changed.
+[2017.06.26-11.34.35:698][595]LogBlueprint:Warning: [XiaoYuAnimBP] 'Speed' variable not found. Base class was probably changed.
+[2017.06.26-11.34.35:698][595]LogBlueprint:Warning: [XiaoYuAnimBP] 'IsInAir?' variable not found. Base class was probably changed.
+[2017.06.26-11.34.35:698][595]LogBlueprint:Warning: [XiaoYuAnimBP] 'IsInAir?' variable not found. Base class was probably changed.
+[2017.06.26-11.38.22:150][ 44]LogSlate: Took 0.002286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.26-11.38.35:416][254]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.38.35:691][254]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.41.56:668][155]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.41.56:729][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error  Play ThirdPersonJump_Start  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.41.56:730][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error  Play ThirdPersonJump_Loop  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.41.56:731][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error  Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.41.56:734][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.41.56:737][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.41.56:737][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_34 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.41.56:738][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_40 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.41.56:738][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.41.56:744][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.41.56:744][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.41.56:744][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.41.56:744][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.41.56:744][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.41.56:745][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.41.56:745][155]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.41.57:197][155]BlueprintEditorCompileResults:Error: Error  Play ThirdPersonJump_Start  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.41.57:197][155]BlueprintEditorCompileResults:Error: Error  Play ThirdPersonJump_Loop  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.41.57:197][155]BlueprintEditorCompileResults:Error: Error  Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.41.57:197][155]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Missing allocated node for AnimGraphNode_SequencePlayer_34 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Missing allocated node for AnimGraphNode_SequencePlayer_40 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.41.57:198][155]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.41.57:215][155]LogBlueprint:Warning: [Compiler XiaoYuAnimBP] Warning [7420.76] Compile of XiaoYuAnimBP failed. 15 Fatal Issue(s) 0 Warning(s) [in 546 ms] (/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.XiaoYuAnimBP)
+[2017.06.26-11.42.05:438][325]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.42.05:497][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error  Play ThirdPersonJump_Loop  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.42.05:500][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error  Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.42.05:503][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.42.05:505][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.42.05:506][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_40 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.42.05:506][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.42.05:510][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.05:510][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.05:511][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.05:511][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.05:511][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.05:511][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.05:511][325]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.05:934][325]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error  Play ThirdPersonJump_Loop  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error  Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error Missing allocated node for AnimGraphNode_SequencePlayer_40 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.05:935][325]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.05:951][325]LogBlueprint:Warning: [Compiler XiaoYuAnimBP] Warning [7429.49] Compile of XiaoYuAnimBP failed. 13 Fatal Issue(s) 0 Warning(s) [in 513 ms] (/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.XiaoYuAnimBP)
+[2017.06.26-11.42.09:262][390]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.42.09:321][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error  Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.42.09:324][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.42.09:327][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.42.09:327][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.42.09:334][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.09:334][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.09:334][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.09:334][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.09:334][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.09:334][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.09:335][390]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error  Play ThirdPerson_Jump  references sequence that uses different skeleton  UE4_Mannequin_Skeleton
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error Missing allocated node for AnimGraphNode_SequencePlayer_46 while searching for node links - likely due to the node having outstanding errors.
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.09:754][390]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.09:769][390]LogBlueprint:Warning: [Compiler XiaoYuAnimBP] Warning [7433.31] Compile of XiaoYuAnimBP failed. 11 Fatal Issue(s) 0 Warning(s) [in 507 ms] (/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.XiaoYuAnimBP)
+[2017.06.26-11.42.12:715][448]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.42.12:774][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.42.12:777][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.42.12:782][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.12:783][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.12:783][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.12:783][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.12:783][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.12:783][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.12:783][448]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPersonJump_Start  was not processed prior to handling a transition getter  ThirdPersonJump_Start Asset  that used it
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play ThirdPerson_Jump  was not processed prior to handling a transition getter  ThirdPerson_Jump Asset  that used it
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPersonJump_Start Asset
+[2017.06.26-11.42.13:211][448]BlueprintEditorCompileResults:Error: Error Unexpected node type K2Node_TransitionRuleGetter encountered at  ThirdPerson_Jump Asset
+[2017.06.26-11.42.13:227][448]LogBlueprint:Warning: [Compiler XiaoYuAnimBP] Warning [7436.77] Compile of XiaoYuAnimBP failed. 9 Fatal Issue(s) 0 Warning(s) [in 511 ms] (/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.XiaoYuAnimBP)
+[2017.06.26-11.43.03:116][507]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.43.03:154][507]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.43.03:578][507]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.43.03:593][507]LogBlueprint:Warning: [Compiler XiaoYuAnimBP] Warning [7487.13] Compile of XiaoYuAnimBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 476 ms] (/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.XiaoYuAnimBP)
+[2017.06.26-11.45.06:031][902]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.45.06:067][902]LogBlueprint:Error: [Compiler XiaoYuAnimBP] Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.45.06:471][902]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharAnimBP_C, therefore ' Target ' must have a connection.
+[2017.06.26-11.45.06:483][902]LogBlueprint:Warning: [Compiler XiaoYuAnimBP] Warning [7610.02] Compile of XiaoYuAnimBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 452 ms] (/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.XiaoYuAnimBP)
+[2017.06.26-11.45.07:931][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.uasset" SILENT=true
+[2017.06.26-11.45.08:010][929]LogSavePackage: Save=69.63ms
+[2017.06.26-11.45.08:010][929]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/XiaoYuAnimBPF96261B24A3B40D2E2DF7787BDAAC45C.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.uasset'
+[2017.06.26-11.45.08:038][929]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.uasset
+[2017.06.26-11.46.17:514][243]BlueprintLog: New page: Compile XiaoYuAnimBP
+[2017.06.26-11.46.18:945][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP" FILE="C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.uasset" SILENT=true
+[2017.06.26-11.46.19:068][263]LogSavePackage: Save=55.19ms
+[2017.06.26-11.46.19:068][263]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/XiaoYuAnimBPAFB90A54446B09AF7319289630D36EF6.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.uasset'
+[2017.06.26-11.46.19:095][263]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Content/Mod/Jingwu/Mod_J/juese/测试模型/XiaoYuAnimBP.uasset
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_A6AF83404CF1F41A7FD9E2B550ECE3C6' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_51F9E0C447BB5C947D84BBBD81E5950F' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_2E55146C46889EEF44AC67915D4801E0' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_BlendSpacePlayer_7EB1D49948B850A532F1A183FFFEC8C8' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_B4ADCD1C4902A43B160948BCA43FDD39' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:297][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_CharAnimBP' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_89C0D9014F0BA7FF61464D962A7C003B' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_2E55146C46889EEF44AC67915D4801E0' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_B4ADCD1C4902A43B160948BCA43FDD39' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_A6AF83404CF1F41A7FD9E2B550ECE3C6' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_51F9E0C447BB5C947D84BBBD81E5950F' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_5BC5C15D457751B9C1AD7CB1DD32900A' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_64B74AD249A2E74026D87884F00C57C8' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_199F4E9E4C6C7541C9DCE0ABF9485EBD' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_348119F640DCF5E6FB7C98A5484DBDC4' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_3952E1774187DA2109686EADFD1998BB' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_53C3CB034ECFD32A9C6D09B62DB43939' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_7EB1D49948B850A532F1A183FFFEC8C8' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:298][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_847729D84F1FAABCEC262BBE1AE2ACC5' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateMachine_39B092DF4F031C530AB835AE22D621C4' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'IsInAir?' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Speed' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_A6AF83404CF1F41A7FD9E2B550ECE3C6' or package '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_51F9E0C447BB5C947D84BBBD81E5950F' or package '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_2E55146C46889EEF44AC67915D4801E0' or package '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_BlendSpacePlayer_7EB1D49948B850A532F1A183FFFEC8C8' or package '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_CharAnimBP_AnimGraphNode_TransitionResult_B4ADCD1C4902A43B160948BCA43FDD39' or package '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_63' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_54' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Game/Mod/Jingwu/Mod_J/juese/测试模型/CharAnimBP'.
+[2017.06.26-11.48.26:299][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_CharAnimBP_C_1' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:300][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_CharAnimBP_C_0' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:300][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_61' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:300][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_68' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:300][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_CharAnimBP_C_71' or package '/Engine/Transient'.
+[2017.06.26-11.48.26:300][401]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_CharAnimBP_C_70' or package '/Engine/Transient'.
+[2017.06.26-11.49.43:157][621]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_88:PersistentLevel.Actor_31.DebugSkelMeshComponent_70) Already registered. Aborting.
+[2017.06.26-11.49.43:558][621]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_88:PersistentLevel.Actor_31.DebugSkelMeshComponent_70) - call TermArticulated first.
+[2017.06.26-11.51.07:997][ 50]LogSavePackage: Save=494.25ms
+[2017.06.26-11.51.07:997][ 50]LogSavePackage: Moving 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/ThirdPersonExampleMap_Auto50E81552E4B033307FF4582A28B9D988C.tmp' to 'C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.06.26-11.51.08:014][ 50]LogSavePackage:Display: Finished SavePackage C:/Users/lenovo/Documents/GitHub/loli/萝莉/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.06.26-11.51.08:031][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.740
+[2017.06.26-11.51.08:031][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.740
